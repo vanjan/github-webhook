@@ -1,6 +1,7 @@
 ---
 applications:
 - name: github-webhook
+  memory: 512M
   services:
     - github-rabbitmq
     - github-eureka
